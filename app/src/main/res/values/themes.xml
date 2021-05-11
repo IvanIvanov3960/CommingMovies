@@ -13,4 +13,17 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="RatingBarSmall" parent="android:style/Widget.Material.RatingBar.Small">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="Theme.MoviesApplication.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MoviesApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MoviesApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
